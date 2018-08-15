@@ -1,5 +1,5 @@
 *{
-    font-family: "微软雅黑";
+   font-family: "微软雅黑";
 }
 ul{
     margin:0;
@@ -7,7 +7,15 @@ ul{
 body,html{
     width: 100%;
     height: 100%;
+    font-family: 微软雅黑;
 }
+.no-padding-left{
+    padding-left:0
+}
+.padding5{
+    padding:0 5px
+}
+
 .headermax{
     width:100%;
     height: 81px;
@@ -200,6 +208,434 @@ nav li a:hover{
     font-size: 14px;
     margin: 0;
 }
+/*装修案例开始*/
+.case,.information{
+    text-align: center;
+    padding-top: 100px;
+}
+.case .flow-top,.information .flow-top{
+    color: #333333;
+    padding: 0 0 10px 0;
+}
+.case-title{
+    color: #bababa;
+    padding: 2px 0 20px 0;
+}
+.caserow li{
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid transparent;
+}
+.casepic{
+    margin: 10px 0;
+    height: auto;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+.casepic img,.casepic a{
+    width: 100%;
+}
+.glassfather{
+    position: relative;
+}
+.glass{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fangdajing.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: rgb(174,174,174);
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: all .6s ease;
+}
+.caseshow li:hover .glass{
+    opacity: 0.6;
+    background-position: center center;
+    transition: all .6s ease;
+}
+
+.case-word{
+    transition: all .5s ease 0s;
+    line-height: 15px;
+    position: relative;
+    padding: 20px;
+    color: #999999;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+.case-word:after{
+    content: "";
+    width:0;
+    height: 1px;
+    background: #ffd3d3;
+    position: absolute;
+    left:0;bottom: 0;
+    transition: all 1s ease;
+}
+.caseshow li:hover .case-word:after{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.casepic .casedesc{
+    width:100%;
+    height: 80px;
+    color:#b7b7b7;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    line-height: 22px;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.more{
+    width: 194px;
+    height: 40px;
+    border: 1px solid rgb(209, 209, 209) ;
+    font-family: 微软雅黑;
+    color: rgb(188, 188, 188);
+    margin: 50px auto 70px;
+}
+.more a{
+    color: rgb(188, 188, 188);
+}
+.more a div{
+    float: left;
+    line-height: 40px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.more i{
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.more:hover{
+    border: 1px solid rgb(136, 136, 136) ;
+    color:rgb(136, 136, 136) ;
+}
+.more:hover a{
+    color:rgb(136, 136, 136) ;
+}
+/*装修咨询*/
+.information{
+    background: #F4F4F4;
+    position: relative;
+    height: 753px;
+}
+.info-link{
+    width: 1190px;
+    height: 300px;
+    display: block;
+    margin: 0 auto 120px;
+    position: relative;
+}
+.over{
+    width: 220px;
+    height: auto;
+    position: absolute;
+    top:0;
+    left:60px;
+}
+.info-link img{
+    width: 220px;
+    height: 300px;
+}
+.informid{
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    top:20px;
+    background:#ffffff;
+}
+.inforleft,.inforright{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top:130px;
+    background: #DBDBDB;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    color: #FEFEFE;
+}
+.inforleft{
+    left:0;
+    background: #DBDBDB;
+}
+.inforright{
+    right:0;
+}
+.inforleft:hover,.inforright:hover{
+    background: #CCCCCC;
+}
+.picbottom{
+    width: 220px;
+    height: auto;
+    background: #E8E8E8;
+    padding-bottom: 20px;
+}
+.picbottom p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+    font-weight: normal;
+    color: #6b6b6b;
+    padding-top: 20px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.picbottom span{
+    color: #999999;
+    font-size: 12px;
+}
+.line div:first-child{
+    width: 70px;
+    height: 1px;
+    background: #333333;
+    float: left;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.line div:last-child{
+    width: 790px;
+    height: 200px;
+    float: left;
+    font-size: 14px;
+    color: #A5A5A5;
+    line-height: 30px;
+    padding:20px 30px;
+}
+.line{
+    margin-left:210px;
+    margin-top: 40px;
+    transition: all .8s ease;
+}
+.informid:hover .line{
+    transform: translateX(40px);
+}
+.informore{
+    /*margin-bottom: 50px;*/
+}
+/*装修风格*/
+.style {
+   text-align: center;
+    margin-top: 50px;
+}
+.style ul{
+    width: 1155px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.style-pic li{
+    background: #3ec9ad;
+    margin-bottom: 10px;
+}
+.style-pic img,.style-pic li{
+    width: 282px;
+    height: 211px;
+    cursor: pointer;
+}
+
+/*装修风格结束*/
+/*设计师团队*/
+.team{
+    max-width: 1280px;
+    width:auto;
+    margin:0 auto;
+    padding:0 40px 40px;
+}
+.designer img{
+    max-width: 100%;
+}
+.intro{
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+.intro span:first-child{
+    color:#000;
+    font-size: 18px;
+}
+.intro span:last-child{
+    color: rgb(105, 105, 105);;
+    font-size: 15px;
+}
+.experience{
+    background-color: #f4f4f4;
+    margin-top: 2px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+.experience span{
+    color:#3EC9AD;
+}
+.case-person{
+    font-size: 15px;
+    border: 2px solid rgb(62, 201, 173);
+    background-color: rgb(62, 201, 173);
+    color: rgb(255, 255, 255);
+    padding: 11px 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.case-person:hover{
+    background-color: rgb(153,219, 202);
+    border: 2px solid rgb(153,219, 202);
+}
+/*业主评论*/
+.comment{
+    max-width: 1280px;
+    width:auto;
+    margin:0 auto;
+    padding:0 40px 40px;
+}
+.comment-list li{
+    margin-bottom:10px;
+}
+.comment-list img{
+    max-width:70%;
+    min-width: 56px;
+}
+.comment-list span{
+    line-height: 1.5em;
+    color:#808080;
+    font-size: 12px;
+}
+.quote-box{
+    width:100%;
+    background: rgba(137,137,137,0.1);
+}
+.quote-box .quote{
+    line-height: 50px;
+    background-color: rgb(62, 201, 173);
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+}
+.qoute-content{
+    padding:20px 20px 40px;
+}
+#connect label{
+    color: rgb(168, 168, 168);
+    font-size: 14px;
+    line-height: 40px;
+    position: absolute;
+    margin-left: 5px;
+}
+#connect label span{
+    color: #cc0101;
+    font-size: 10px;
+}
+#connect input{
+    width:100%;
+    border: 1px solid rgb(222, 222, 222);
+    height: 40px;
+    font-size: 14px;
+    background-color: rgba(222, 222, 222, 1);
+    color:#555
+}
+#connect input:focus{
+    outline:none;
+}
+.submit-box{
+    width:100%;
+    margin:40px auto 20px;
+    text-align: center;
+}
+#connect button{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 20px 10px;
+    font-weight: bold;
+    background-color: #3ec9ad;
+    border:none;
+}
+#connect button:hover{
+    background-color: rgb(153,219, 202);
+}
+/*合作品牌*/
+.gray{
+    background: #f7f7f7
+}
+.co-branding{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 40px 40px;
+}
+.title{
+    text-align: center;
+    padding:50px 0 30px 0;
+}
+.title .header-title{
+    font-size: 26px;
+    color: #333333;
+    padding: 0 0 10px 0;
+}
+.title .sub-title{
+    font-size: 13px;;
+    color: #bababa;
+    padding: 2px;
+}
+.branding{
+    height:132px;
+}
+.branding li{
+    margin-bottom: 10px;
+    padding: 0 25px;
+}
+.branding li img{
+    width:100%;
+}
+.branding li img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: all .6s ease;
+}
+.branding li:hover img{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: none;
+    transition: all 1s ease;
+}
+/*底部*/
+footer{
+    padding:20px 0;
+    background: #c1c1c1;
+}
+.foot-wrap{
+    max-width: 934px;
+    padding:0 40px;
+    margin:0 auto;
+    text-align: center;
+    font-size:11px;
+    color:#808080;
+    line-height: 26px;
+}
+.font-s12{
+    font-size: 12px;
+    font-family: "arial";
+    color:#666666
+}
+
 @media screen and (min-width: 992px){
     .headermax{
         display: block;
@@ -217,6 +653,7 @@ nav li a:hover{
         font-size: 13px;
     }
 }
+
 @media screen and (max-width: 992px){
     .headermax{
         display: none;
