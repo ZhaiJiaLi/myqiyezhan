@@ -39,11 +39,9 @@ body,html{
     height: 57px;
 }
 nav{
-    /*max-width:700px;*/
     height: 81px;
     float: left;
     text-align: center;
-    /*padding-left: 70px;*/
 }
 nav ul{
    padding-top: 32px;
@@ -168,6 +166,24 @@ nav li a:hover{
 }
 .banright:hover{
     background-position: 0 -40px;
+}
+.bannercircle{
+    width: 66px;
+    height: 40px;
+    position: absolute;
+    left:623px;
+    bottom:0px;
+}
+.bannercircle li{
+    width:20px;
+    height: 20px;
+    background:#A3A3A3;
+    border-radius: 50%;
+    float: left;
+   background: url("../img/circle1.png");
+}
+.bannercircle li:hover,.bannercircle li.default{
+    background: url("../img/circle2.png");
 }
 /*装修流程*/
 .flow{
