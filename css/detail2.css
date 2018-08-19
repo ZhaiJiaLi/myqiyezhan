@@ -12,6 +12,7 @@ ul{
     overflow: hidden;
     background: #FFFFFF;
     z-index: 2;
+    float: none;
 }
 .head{
     max-width: 1190px;
@@ -135,8 +136,8 @@ nav li a:hover{
 }
 .return{
     display: block;
-    width: 56px;
-    height:19px ;
+    width: 100px;
+    height:48px ;
     border: 2px solid #2A2A2A;
     margin: 0 auto 83px;
     padding: 13px 19px;

@@ -7,10 +7,11 @@ ul{
 .headermax{
     width:100%;
     height: 81px;
-    /*padding: 0 40px;*/
+    padding: 0 40px;
     overflow: hidden;
     background: #FFFFFF;
     z-index: 2;
+    float: none;
 }
 .head{
     max-width: 1190px;
@@ -79,13 +80,13 @@ nav li a:hover{
 }
 /*头部结束*/
 .listcontent{
-    width: 890px;
+    width: 100%;
     height: auto;
     padding:10px 80px  80px;
 }
 .listcontent li{
-    width: 878px;
-    height: 181px;
+    width: 915px;
+    height: 205px;
     border-bottom: 1px dotted #e5e5e5;
     padding:20px;
 }
@@ -132,6 +133,7 @@ nav li a:hover{
 }
 .read-content:hover{
     border-bottom: 1px solid #3ec9ad;
+    color: #3ec9ad;
 }
 footer{
     padding:20px 0;
