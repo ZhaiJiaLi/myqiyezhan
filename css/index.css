@@ -499,6 +499,7 @@ nav li a:hover{
     color:#3EC9AD;
 }
 .case-person{
+    display: block;
     font-size: 15px;
     border: 2px solid rgb(62, 201, 173);
     background-color: rgb(62, 201, 173);
@@ -510,6 +511,7 @@ nav li a:hover{
 .case-person:hover{
     background-color: rgb(153,219, 202);
     border: 2px solid rgb(153,219, 202);
+    color: rgb(255, 255, 255);
 }
 /*业主评论*/
 .comment{

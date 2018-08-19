@@ -134,12 +134,14 @@ nav li a:hover{
     line-height: 30px;
 }
 .return{
+    display: block;
     width: 56px;
     height:19px ;
     border: 2px solid #2A2A2A;
     margin: 0 auto 83px;
     padding: 13px 19px;
     font-size: 14px;
+    color: #2a2a2a;
 }
 .return:hover{
     background: #2a2a2a;
