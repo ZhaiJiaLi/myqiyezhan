@@ -1,0 +1,89 @@
+.designer{
+    width: 1190px;
+    height:auto;
+    box-shadow: 0px 3px 15px #ccc;
+    margin: 0 auto 50px;
+}
+.headpic{
+    width: 100%;
+    height: 216px;
+    text-align: center;
+    padding-top: 56px;
+}
+.headpic img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.title{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    padding: 8px 0 6px;
+}
+.title span:first-child{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.title span:last-child{
+    font-size: 13px;
+    color:rgb(105, 105, 105);
+}
+.exceper{
+    width: 100%;
+    height: auto;
+    padding: 8px 0 31px;
+    text-align: center;
+}
+.exceper span{
+    font-size: 14px;
+    color: #8d9095;
+}
+.example img{
+    width: 300px;
+    height: 200px;
+    margin: 0  10px ;
+
+}
+.example {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.example span{
+    display: block;
+}
+.word{
+    width: 580px;
+    height: 25px;
+    margin: 6px auto ;
+    overflow: hidden;
+    font-size: 14px;
+    color: #8d9095;
+}
+.word div:first-child{
+    float: left;
+}
+.word div:last-child{
+    float: right;
+}
+.more{
+    width: 100%;
+    height:auto;
+    padding:53px 20px 75px
+}
+.more div{
+    width: 180px;
+    height: 45px;
+    line-height: 23px;
+    font-family: 微软雅黑;
+    padding:11px 34px;
+    color: rgb(96, 96, 96);
+    background-color: rgb(244, 244, 244);
+    font-size: 13px;
+    margin: 0 auto;
+}
+.more div:hover{
+    color: #fff;
+    background-color: #3ec9ad;
+}

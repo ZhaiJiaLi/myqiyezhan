@@ -1,84 +1,4 @@
-*{
-    font-family: "微软雅黑";
-}
-ul{
-    margin-bottom: 0;
-}
-.headermax{
-    width:100%;
-    height: 81px;
-    padding: 0 40px;
-    overflow: hidden;
-    background: #FFFFFF;
-    z-index: 2;
-    float: none;
-}
-.head{
-    max-width: 1190px;
-    height: 81px;
-    margin: 0 auto;
-}
-.header-left{
-    width: 198px;
-    padding:10px 0;
-    float: left;
-}
-.header-left img{
-    width: 126px;
-    height: 57px;
-}
-nav{
-    height: 81px;
-    float: left;
-    text-align: center;
-}
-nav ul{
-    padding-top: 32px;
-    height: 32px;
-}
-nav li{
-    float: left;
-    padding:0 20px;
-}
-nav li a{
-    font-size: 14px;
-    color: #BCBCBC;
-}
-nav li a:hover{
-    color:#aaaaaa;
-}
-.header-right{
-    float: right;
-    width:282px;
-    height:34px;
-    margin: 25px 0;
-    border: 1px solid #3ec9ad;
 
-}
-.header-right input{
-    width: 235px;
-    outline: none;
-    color: #c9c9c9;
-    font-size: 14px;
-    line-height: 32px;
-    font-family: 微软雅黑;
-    border: 0;
-    float: left;
-}
-.search{
-    width:45px;
-    height: 34px;
-    background: #3ec9ad;
-    float: right;
-    text-align: center;
-}
-.search i{
-    color: #fff;
-    line-height: 32px;
-    font-size: 22px;
-    cursor: pointer;
-}
-/*头部结束*/
 .listcontent{
     width: 100%;
     height: auto;
@@ -134,23 +54,5 @@ nav li a:hover{
 .read-content:hover{
     border-bottom: 1px solid #3ec9ad;
     color: #3ec9ad;
-}
-footer{
-    padding:20px 0;
-    background: #c1c1c1;
-}
-.foot-wrap{
-    max-width: 934px;
-    padding:0 40px;
-    margin:0 auto;
-    text-align: center;
-    font-size:11px;
-    color:#808080;
-    line-height: 26px;
-}
-.font-s12{
-    font-size: 12px;
-    font-family: "arial";
-    color:#666666
 }
 

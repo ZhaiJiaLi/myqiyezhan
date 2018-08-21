@@ -1,0 +1,90 @@
+
+/*中间部分，标题*/
+.design-pic{
+    width: 1190px;
+    height: 66px;
+    background: #f4f4f4;
+    margin: 0 auto 20px;
+    line-height: 66px;
+    text-align: center;
+}
+.design-pic p {
+    font-size: 16px;
+    color: #808080;
+}
+.pics{
+    width: 1190px;
+    height: auto;
+    margin: 0 auto 76px;
+}
+.pics ul{
+    width: 1190px;
+    height: 906px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.pics li{
+    width: 289px;
+    height: 216px;
+    cursor: pointer;
+}
+.pics li img{
+    width: 289px;
+    height: 216px;
+}
+/*合作品牌*/
+.gray{
+    background: #f7f7f7
+}
+.co-branding{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 40px 40px;
+}
+.title{
+    text-align: center;
+    padding:50px 0 30px 0;
+}
+.title .header-title{
+    font-size: 26px;
+    color: #333333;
+    padding: 0 0 10px 0;
+}
+.title .sub-title{
+    font-size: 13px;;
+    color: #bababa;
+    padding: 2px;
+}
+.branding{
+    height:132px;
+}
+.branding li{
+    margin-bottom: 10px;
+    padding: 0 25px;
+}
+.branding li img{
+    width:100%;
+}
+.branding li img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transition: all .6s ease;
+}
+.branding li:hover img{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: none;
+    transition: all 1s ease;
+}
+
+
+
