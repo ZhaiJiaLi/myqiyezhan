@@ -1,5 +1,5 @@
 window.onload=function () {
-
+    alert(1);
     let banlis=document.querySelectorAll(".ban li");
     let crilis=document.querySelectorAll(".bannercircle li");
     let banleft=document.getElementsByClassName("banleft")[0];
